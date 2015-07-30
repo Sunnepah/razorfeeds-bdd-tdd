@@ -47,7 +47,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'cucumber-rails', '~> 1.4.2'
+  gem 'cucumber-rails', '~> 1.4.2',:require => false
   gem 'cucumber-rails-training-wheels', '~> 1.0.0'
   gem 'capybara'
   gem 'database_cleaner'

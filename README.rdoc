@@ -38,6 +38,9 @@ rake db:test:prepare
 * rails generate cucumber:install
 * rails generate cucumber_rails_training_wheels:install (optional)
 * rails generate rspec:install
+* gem install rspec
+
+* Add BDD User Stories
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
