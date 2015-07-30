@@ -6,3 +6,4 @@ Feature: View Application Homepage
   Scenario: Visit Homepage
     Given I am on the homepage
     Then I should see "Welcome to Esusu Plus."
+    And I should see links "Sign In", "Sign Up"
